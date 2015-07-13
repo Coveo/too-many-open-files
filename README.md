@@ -2,7 +2,7 @@ Step to reproduce :
 
 <ol>
 <li>Checkout this repository
-        <pre>git checkout https://github.com/mapoulin/too-many-open-files.git</pre>
+        <pre>git checkout https://github.com/Coveo/too-many-open-files.git</pre>
 </li>
 <li>No need to modify anything, simply build the executable jar : 
         <pre>mvn clean install</pre>
@@ -21,10 +21,10 @@ Step to reproduce :
 
 Tested with :
 
-    [ec2-user@ip-xxx-xxx-xxx-xxx ~]$ java -version
+    $ java -version
     java version "1.7.0_79"
     OpenJDK Runtime Environment (amzn-2.5.5.1.59.amzn1-x86_64 u79-b14)
     OpenJDK 64-Bit Server VM (build 24.79-b02, mixed mode)
 
-    [ec2-user@ip-xxx-xxx-xxx-xxx ~]$ uname -a
+    $ uname -a
     Linux ip-xxx-xxx-xxx-xxxx 3.14.35-28.38.amzn1.x86_64 #1 SMP Wed Mar 11 22:50:37 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux

@@ -19,7 +19,7 @@ Step to reproduce :
 </li>
 </ol>
 
-Tested with :
+Environment details
 
     $ java -version
     java version "1.7.0_79"
